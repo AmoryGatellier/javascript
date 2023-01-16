@@ -68,7 +68,6 @@ create.onclick = function() {
             supp = createDom('button','Retirer',divall);
             supp.setAttribute("class", 'a'+number());
             supp.setAttribute("class", 'lessup');
-            
 
             supp.addEventListener("click", function (){
                 divall.remove();
