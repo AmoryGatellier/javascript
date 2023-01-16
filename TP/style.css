@@ -1,0 +1,54 @@
+nav{
+    position : fixed;
+    background-color:  indigo;
+    text-decoration: underline;
+    color: white;
+    width: 100%;
+    height: 20px;
+    margin: 0;
+    top: 0;
+    left: 0;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+html{
+    font-size: 16px;
+    background-color: aliceblue;
+}
+
+a,a:visited{
+    color: white;
+    margin-left: 20px;
+}
+h2{
+    text-decoration: underline;
+}
+
+#divb{
+    border: 2px solid black;
+    background-color: lightblue;
+    width: 90%;
+    margin-top: 20px;
+    padding: 30px;
+}
+
+textarea,input{
+    margin-bottom: 25px;
+}
+
+#inputtxt{
+    max-width: 1350px ;
+    width: 1350px;
+    height: 200px;
+}
+
+.articles{
+    margin: 20px;
+    text-align: justify;
+}
+
+#diva{
+    margin-top: 100px;
+}
