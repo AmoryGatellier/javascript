@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="slider.css" />
+    <title>Document</title>
+</head>
+
+<body>
+    <div>
+        <canvas id="myChart"></canvas>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <script>
+        const ctx = document.getElementById('myChart');
+
+        new Chart(ctx, {
+            type: 'bar',
+            data: {
+                labels: ['Anglais', 'Espagnol', 'Maths', 'Physique'],
+                datasets: [
+                    {
+                        label: 'Exam 1 Results',
+                        backgroundColor: 'red',
+                        data: [30,50,65,80]
+                    },
+                    {
+                        label: 'Exam 2 Results',
+                        backgroundColor: 'blue',
+                        data: [50,25,40,90]
+                    },
+                    {
+                        label: 'Exam 3 Results',
+                        backgroundColor: 'black',
+                        data: [25,40,70,70]
+                    }
+                ]
+            }
+        });
+    </script>
+</body>
+
+</html>
