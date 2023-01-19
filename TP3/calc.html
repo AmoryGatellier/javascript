@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculatrice</title>
+    <style>
+        body {
+            background-color: black;
+        }
+
+        button {
+            width: 100%;
+            height: 20px;
+            background-color: white;
+        }
+
+        td {
+            border: 1px solid white;
+        }
+
+        #inputLabel {
+            background-color: black;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <table cellspacing="0">
+            <tr>
+                <td colspan="4" id="inputLabel">0</td>
+            </tr>
+            <tr>
+                <td colspan="3"><button onclick="calc(this);">AC</button></td>
+                <td><button onclick="calc(this);">/</button></td>
+            </tr>
+            <tr>
+                <td><button onclick="calc(this);">7</button></td>
+                <td><button onclick="calc(this);">8</button></td>
+                <td><button onclick="calc(this);">9</button></td>
+                <td><button onclick="calc(this);">*</button></td>
+            </tr>
+            <tr>
+                <td><button onclick="calc(this);">4</button></td>
+                <td><button onclick="calc(this);">5</button></td>
+                <td><button onclick="calc(this);">6</button></td>
+                <td><button onclick="calc(this);">-</button></td>
+            </tr>
+            <tr>
+                <td><button onclick="calc(this);">1</button></td>
+                <td><button onclick="calc(this);">2</button></td>
+                <td><button onclick="calc(this);">3</button></td>
+                <td><button onclick="calc(this);">+</button></td>
+            </tr>
+            <tr>
+                <td colspan="2"><button onclick="calc(this);">0</button></td>
+                <td><button onclick="calc(this);">.</button></td>
+                <td><button onclick="calc(this);">=</button></td>
+            </tr>
+        </table>
+    </div>
+    <script type="text/javascript" src="calc.js"></script>
+</body>
+
+</html>
